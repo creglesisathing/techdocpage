@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="./styles.css" />
+<nav id="navbar">
+  <header>Fake Technical Documentation Page</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_to_know_about_this_page"
+        >What to know about this page</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#Pie">Pie</a>
+    </li>
+    <li><a class="nav-link" href="#My_name">my name</a></li>
+    <li><a class="nav-link" href="#what_i_think_about_pokemon">what i think about pokemon</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        Welcome to my fake technical documentation page! It is very fake as you can see. It meets all the requirements of a technical documentation page without any of the actual information to make this page useful
+      </p>
+
+      <p>
+        Typically you would have something interesting an important here!
+      </p>
+      <ul>
+        <li>
+         This first bullet point would have something cool
+        </li>
+        <li>
+          so would this one too
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="What_to_know_about_this_page">
+    <header>What to know about this page</header>
+    <article>
+      <p>This guide gives you nothing</p>
+
+      <ul>
+        <li>
+          Like nothing
+        </li>
+        <li>no really nothing</li>
+        <li>
+          like there is info here that you could use, but it won't improve your depreciate your life in any way
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Pie">
+    <header>Pie</header>
+    <article>
+      <p>
+        I love pie!
+      </p>
+
+      <p>
+        I could use a chocolate creme pie right now
+      </p>
+      <p>
+        Maybe even key lime!
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="My_name">
+    <header>My name</header>
+    <article>
+      My name is Craig by the way. And here is some code:
+      <code
+        >x = 5;
+y = 6;
+z = x + y;
+      </code>
+      Select the code in the pad and hit Ctrl+R to watch it do the math. That's fun, right?
+    </article>
+  </section>
+  <section class="main-section" id="what_i_think_about_pokemon">
+    <header>what i think about pokemon</header>
+    <p>
+      i think nothing of them
+    </p>
+    <p>
+      like what is a charzard
+    </p>
+    <p>
+      a pikachu?
+    </p>
+    <article>
+      lets talk about math!
+      <p>
+        This is how you set up a variable <code>var x = 42.</code> In this case, x equals 42
+      </p>
+      <p>
+        You can also take out the "var" in there <code>x = 42.</code> That looks better
+      </p>
+      <p>
+        set up another variable<code> let y = 13.</code> that's lit
+      </p>
+    </article>
+      <p>
+        When you declare a variable outside of any function, it is called a
+        global variable in Javascript. Now that's a useful fact! I finally gave you something useful!
+      </p>
+
+      <p>
+        One more bit of code, a script element that helps set up javascript:
+      </p>
+      <code>document.getElementById("demo").innerHTML = "Hello JavaScript!";</code>
+      <p>
+        And that's all. yay
+      </p>
+    </article>
+  </section>
+</main>
+
+</html>
